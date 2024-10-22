@@ -1,0 +1,28 @@
+.nav-left-fixed {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    max-width: 80px;
+    background-color: rgb(136, 149, 151);
+    top: 0;
+    left: 0;
+}
+
+
+.icon-label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    font-size: 10px;
+}
+
+.icon-label img,
+.icon-label svg {
+    width: 30px;
+    height: 30px;
+}
